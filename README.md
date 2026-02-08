@@ -30,7 +30,7 @@ This project builds and compares multiple classification models to predict wheth
 
 Further imporvements for the classification model using:
 * **Third Model:** fixing the imbalanced `smoker` distribution through `RandomOverSampler`.
-* **Fourth Model:** Regularization applied using Grid Search.
+* **Fourth Model:** Regularization applied using Grid Search and also fixing the imbalanced `smoker` distribution through `RandomOverSampler`.
 * **Fifth Model:** applying `AdaBoost` to enhance the performance.
 
 ## Dataset
