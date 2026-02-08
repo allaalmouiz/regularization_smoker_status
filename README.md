@@ -4,17 +4,7 @@
 
 This project builds and compares multiple classification models to predict whether an individual is a smoker or not based on health and demographic features. The challenge involves handling class imbalance, applying regularization techniques, and experimenting with ensemble methods to optimize model performance.
 
-
-## Problem Statement
-
 ### Objectives
-
-1. **Model Building:** Train a baseline Logistic Regression classifier using scikit-learn
-2. **Evaluation:** Assess model performance using four key metrics (Accuracy, Precision, Recall, F1-Score)
-3. **Model Improvement:**
-   - Analyze and address label class imbalance
-   - Apply regularization via GridSearchCV for hyperparameter tuning
-   - Experiment with AdaBoost ensemble learning
   
 <p align="center">
   <img src="modelEval.png" alt="Challange Chain of Thoughts" width="900">
