@@ -1,10 +1,5 @@
 # Smoker Status Prediction Challenge - Module 3
 
-**Author:** Alaa Almouiz F. Moh.  
-**ID Number:** S2026_176  
-**Track:** Machine Learning  
-**Organization:** ZAKA ©
-
 ## Project Overview
 
 This project builds and compares multiple classification models to predict whether an individual is a smoker or not based on health and demographic features. The challenge involves handling class imbalance, applying regularization techniques, and experimenting with ensemble methods to optimize model performance.
@@ -166,7 +161,6 @@ param_grid = {
 - Computationally efficient
 - Best trade-off between performance and complexity
 
----
 
 ### Model 5: AdaBoost Ensemble
 
@@ -226,25 +220,6 @@ While AdaBoost performed well, marginal improvements (~0.2%) didn't justify 3-5x
 ### Cross-Validation Advantage
 5-fold CV provided more reliable generalization estimates compared to single train-test split, revealing true model performance gaps.
 
----
-
-## Requirements & Dependencies
-
-```
-pandas>=1.0.0
-numpy>=1.18.0
-scikit-learn>=0.24.0
-imbalanced-learn>=0.8.0
-matplotlib>=3.0.0
-seaborn>=0.11.0
-```
-
-### Installation
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
-```
-
----
 
 ## Project Structure
 
@@ -255,7 +230,6 @@ regularization_smoker_status/
 └── smoker_prediction.ipynb   # Jupyter notebook with full analysis
 ```
 
----
 
 ## Usage
 
