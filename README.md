@@ -15,6 +15,23 @@ This project builds and compares multiple classification models to predict wheth
    - Analyze and address label class imbalance
    - Apply regularization via GridSearchCV for hyperparameter tuning
    - Experiment with AdaBoost ensemble learning
+  
+<p align="center">
+  <img src="modelEval.png" alt="Challange Chain of Thoughts" width="900">
+</p>
+  
+**Part 1**
+
+* **First Model:** Build a simple classification model using **scikit-learn’s**  library.
+* **Second Model:** Build a classification model using k-folds method.
+* Analyze  how  the  model  performs  and  what patterns it may be capturing in both.
+
+**Part 2**
+
+Further imporvements for the classification model using:
+* **Third Model:** fixing the imbalanced `smoker` distribution through `RandomOverSampler`.
+* **Fourth Model:** Regularization applied using Grid Search.
+* **Fifth Model:** applying `AdaBoost` to enhance the performance.
 
 ## Dataset
 
